@@ -28,9 +28,6 @@ scraping_sql_powerBI/
 ├── requirements.txt
 └── README.md
 
-markdown
-Copiar
-Editar
 
 ---
 
