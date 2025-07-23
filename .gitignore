@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database files (solo si generas copias temporales)
+*.db-journal
+*.sqlite-journal
+
+# CSVs temporales o de exportación (si no quieres subirlos)
+exporter/*.csv
+
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de VSCode
+.vscode/
+*.code-workspace
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Power BI temporales o pesados
+*.pbix
+*.pbix~*
