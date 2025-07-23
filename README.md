@@ -1,78 +1,45 @@
-\# Scraping + SQL + Power BI 🚀
-
-
+# Scraping + SQL + Power BI 🚀
 
 Proyecto de automatización y análisis de ofertas de empleo técnicas, combinando scraping web, base de datos en SQLite y visualización con Power BI.
 
+---
 
+## 🔧 Tecnologías usadas
 
-\## 🔧 Tecnologías usadas
+- Python (requests, BeautifulSoup, sqlite3)
+- SQLite
+- Power BI Desktop
+- VSCode + SQLite Explorer (opcional)
+- DB Browser for SQLite (visualización alternativa)
 
+---
 
+## 📁 Estructura del proyecto
 
-\- Python (requests, BeautifulSoup)
-
-\- SQLite (vía `sqlite3`)
-
-\- Power BI Desktop
-
-\- Visual Studio Code (entorno de trabajo)
-
-
-
-\## 📁 Estructura del proyecto
-
-
-
-scraping\_sql\_powerBI/
-
-├── scraper/ # Código para extraer datos (ej. tecnoempleo)
-
-├── db/ # Base de datos SQLite local
-
-├── exporter/ # Scripts para exportar a CSV
-
-├── powerbi/ # Dashboards, capturas y archivo .pbix
-
-├── schema.sql # Estructura de la base de datos
-
+scraping_sql_powerBI/
+├── src/ # Scraper y extracción HTML
+├── config/ # Configuraciones JSON por origen
+├── data/ # Archivos HTML y CSV generados
+├── db/ # Base de datos SQLite
+├── scripts/ # Scripts interactivos y utilidades
+│ └── filtrar_ofertas_interactivamente.py
 ├── consultas.sql # Consultas SQL útiles
-
-├── requirements.txt # Dependencias del proyecto
-
+├── schema.sql # Definición de tablas SQL
+├── requirements.txt
 └── README.md
 
-
-
 markdown
-
 Copiar
-
 Editar
 
+---
 
+## 🧠 Flujo de trabajo
 
-\## 💡 Objetivo
-
-
-
-\- Automatizar la recogida de datos de portales como \[Tecnoempleo](https://www.tecnoempleo.com/)
-
-\- Almacenarlos de forma estructurada en SQLite
-
-\- Visualizarlos mediante Power BI para obtener estadísticas sobre el mercado laboral
-
-
-
-\## 📊 Estado del proyecto
-
-
-
-\- \[x] Estructura inicial
-
-\- \[ ] Primer scraper funcional
-
-\- \[ ] Inserción de datos en SQLite
-
-\- \[ ] Exportación y conexión con Power BI
+1. **Scraping automático** desde Tecnoempleo (`src/`)
+2. **Extracción enriquecida**: título, empresa, ciudad, modalidad, salario, estado, fecha
+3. **CSV personalizado** generado por búsqueda y fecha
+4. **Filtrado interactivo** desde consola (`scripts/`): el usuario revisa las ofertas una a una y guarda solo las interesantes en `ofertas_filtradas`
+5. **Almacenamiento** en SQLite (`aplicaciones.db`)
+6. (Pendiente) **Visualización con Power BI directamente conectado a SQLite**
 

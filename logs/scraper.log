@@ -1,0 +1,125 @@
+2025-07-23 11:04:31,943 [ERROR] Archivo de configuración no encontrado: config\flickfocus.json
+2025-07-23 11:05:09,994 [ERROR] Error inesperado durante la ejecución del scraper
+Traceback (most recent call last):
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\main.py", line 45, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\main.py", line 22, in main
+    config = cargar_config(config_path)
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\main.py", line 12, in cargar_config
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 8 column 35 (char 295)
+2025-07-23 11:07:01,872 [INFO] Usando User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36
+2025-07-23 11:07:02,043 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:07:10,071 [INFO] Esperando selector: div.col-12.col-sm-12.col-md-12.col-lg-7
+2025-07-23 11:07:20,086 [WARNING] No se encontró el selector dentro del tiempo esperado
+2025-07-23 11:07:20,087 [INFO] Esperando 1.64 segundos (aleatorio)...
+2025-07-23 11:07:21,730 [INFO] Simulando interacción humana...
+2025-07-23 11:07:24,362 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\..\data/tecnoempleo.html
+2025-07-23 11:07:24,408 [ERROR] Archivo HTML no encontrado: data/tecnoempleo.html
+2025-07-23 11:11:55,403 [INFO] Usando User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/111.0.0.0 Safari/537.36
+2025-07-23 11:11:55,519 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:11:56,218 [INFO] Esperando selector: div.col-12.col-sm-12.col-md-12.col-lg-7
+2025-07-23 11:12:06,236 [WARNING] No se encontró el selector dentro del tiempo esperado
+2025-07-23 11:12:06,237 [INFO] Esperando 2.42 segundos (aleatorio)...
+2025-07-23 11:12:08,657 [INFO] Simulando interacción humana...
+2025-07-23 11:12:11,626 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:12:11,940 [WARNING] No se encontraron datos en: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:12:11,956 [INFO] CSV guardado en: data/ofertas_tecnoempleo.csv
+2025-07-23 11:23:53,441 [INFO] Usando User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/111.0.0.0 Safari/537.36
+2025-07-23 11:23:53,569 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:24:01,707 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 11:24:01,743 [INFO] Esperando 2.14 segundos (aleatorio)...
+2025-07-23 11:24:03,888 [INFO] Simulando interacción humana...
+2025-07-23 11:24:07,389 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:24:07,719 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:24:07,723 [INFO] CSV guardado en: data/ofertas_tecnoempleo.csv
+2025-07-23 11:30:07,076 [INFO] Usando User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/14.0.3 Safari/605.1.15
+2025-07-23 11:30:07,196 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:30:07,978 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 11:30:08,009 [INFO] Esperando 2.97 segundos (aleatorio)...
+2025-07-23 11:30:10,979 [INFO] Simulando interacción humana...
+2025-07-23 11:30:13,707 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:30:14,018 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:30:14,021 [ERROR] Error inesperado durante la ejecución del scraper
+Traceback (most recent call last):
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\main.py", line 46, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\main.py", line 39, in main
+    extraer_desde_html(config_path)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\src\extractor.py", line 59, in extraer_desde_html
+    df.to_csv(output_csv, index=False, encoding='utf-8')
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\.venv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\.venv\Lib\site-packages\pandas\core\generic.py", line 3986, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\.venv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\.venv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\.venv\Lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'data/ofertas_tecnoempleo.csv'
+2025-07-23 11:31:54,068 [INFO] Usando User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/14.0.3 Safari/605.1.15
+2025-07-23 11:31:54,188 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:31:54,915 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 11:31:54,953 [INFO] Esperando 2.47 segundos (aleatorio)...
+2025-07-23 11:31:57,428 [INFO] Simulando interacción humana...
+2025-07-23 11:32:00,557 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:32:00,873 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:32:00,878 [INFO] CSV guardado en: data/ofertas_tecnoempleo.csv
+2025-07-23 11:34:38,524 [INFO] Usando User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36
+2025-07-23 11:34:38,646 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:34:39,393 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 11:34:39,433 [INFO] Esperando 2.53 segundos (aleatorio)...
+2025-07-23 11:34:41,960 [INFO] Simulando interacción humana...
+2025-07-23 11:34:45,128 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:34:45,441 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:34:45,445 [INFO] CSV guardado en: data/ofertas_tecnoempleo.csv
+2025-07-23 11:43:54,735 [INFO] Usando User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36
+2025-07-23 11:43:54,851 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:43:55,626 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 11:43:55,662 [INFO] Esperando 1.99 segundos (aleatorio)...
+2025-07-23 11:43:57,652 [INFO] Simulando interacción humana...
+2025-07-23 11:43:59,738 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 11:44:00,060 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 11:44:00,065 [INFO] CSV guardado en: data/python_20250723.csv
