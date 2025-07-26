@@ -4,7 +4,7 @@ import os
 
 # Configuración
 DB_PATH = "db/aplicaciones.db"
-CSV_PATH = "data/python_20250723.csv"  # Cambia esto según el archivo generado
+CSV_PATH = "data/aws_20250726.csv"  
 
 # Conectar a SQLite y crear la tabla si no existe
 conn = sqlite3.connect(DB_PATH)

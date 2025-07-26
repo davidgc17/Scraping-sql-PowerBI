@@ -1,8 +1,8 @@
 {
   "source": "url",
-  "url": "https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1",
+  "url": "https://www.tecnoempleo.com/busqueda-empleo.php?te=aws&en=1",
   "html_path": "data/tecnoempleo.html",
-  "nombre_busqueda": "python",
+  "nombre_busqueda": "aws",
   "selectors": {
     "container": "div.p-3.border.rounded.mb-3.bg-white"
   }

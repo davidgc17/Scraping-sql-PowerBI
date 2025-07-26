@@ -1,0 +1,24 @@
+.PHONY: all scrape filter reset-db help
+
+VENV = .venv\Scripts\python.exe
+SCRAPE_CONFIG = config/tecnoempleo.json
+DB_PATH = db/aplicaciones.db
+CSV_PATH = data/python_$(shell date +%Y%m%d).csv
+
+all: scrape filter
+
+scrape:
+	$(VENV) main.py
+
+filter:
+	$(VENV) scripts/filtrar_ofertas_interactivamente.py
+
+reset-db:
+	del /q $(DB_PATH)
+
+help:
+	@echo "Comandos disponibles:"
+	@echo "  make scrape       Ejecuta el scraping con main.py"
+	@echo "  make filter       Lanza el script interactivo para insertar"
+	@echo "  make all          Ejecuta scraping y filtrado"
+	@echo "  make reset-db     Elimina la base de datos (db/aplicaciones.db)"

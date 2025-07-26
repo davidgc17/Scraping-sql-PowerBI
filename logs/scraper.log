@@ -123,3 +123,99 @@ PermissionError: [Errno 13] Permission denied: 'data/ofertas_tecnoempleo.csv'
 2025-07-23 11:43:59,738 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
 2025-07-23 11:44:00,060 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
 2025-07-23 11:44:00,065 [INFO] CSV guardado en: data/python_20250723.csv
+2025-07-23 15:47:52,910 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-23 15:47:53,157 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 15:48:01,218 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-23 15:48:01,251 [INFO] Esperando 2.66 segundos (aleatorio)...
+2025-07-23 15:48:03,915 [INFO] Simulando interacción humana...
+2025-07-23 15:48:07,271 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-23 15:48:07,627 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-23 15:48:07,650 [INFO] CSV guardado en: data/python_20250723.csv
+2025-07-26 13:57:34,731 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-26 13:57:35,037 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:57:43,335 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 13:57:43,382 [INFO] Esperando 2.54 segundos (aleatorio)...
+2025-07-26 13:57:45,922 [INFO] Simulando interacción humana...
+2025-07-26 13:57:48,836 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 13:57:49,180 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:57:49,196 [INFO] CSV guardado en: data/python_20250726.csv
+2025-07-26 13:58:33,200 [INFO] Usando User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36
+2025-07-26 13:58:33,310 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:58:34,138 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 13:58:34,173 [INFO] Esperando 2.36 segundos (aleatorio)...
+2025-07-26 13:58:36,530 [INFO] Simulando interacción humana...
+2025-07-26 13:58:39,473 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 13:58:39,779 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:58:39,782 [INFO] CSV guardado en: data/python_20250726.csv
+2025-07-26 13:59:18,926 [INFO] Usando User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/14.0.3 Safari/605.1.15
+2025-07-26 13:59:19,037 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:59:19,806 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 13:59:19,837 [INFO] Esperando 2.21 segundos (aleatorio)...
+2025-07-26 13:59:22,050 [INFO] Simulando interacción humana...
+2025-07-26 13:59:25,347 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 13:59:25,664 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 13:59:25,668 [INFO] CSV guardado en: data/python_20250726.csv
+2025-07-26 14:05:01,172 [INFO] Usando User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/14.0.3 Safari/605.1.15
+2025-07-26 14:05:01,283 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 14:05:02,192 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:05:02,223 [INFO] Esperando 2.54 segundos (aleatorio)...
+2025-07-26 14:05:04,766 [INFO] Simulando interacción humana...
+2025-07-26 14:05:08,891 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:05:09,206 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=python&en=1
+2025-07-26 14:05:09,210 [INFO] CSV guardado en: data/python_20250726.csv
+2025-07-26 14:05:33,227 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-26 14:05:33,335 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=sql&en=1
+2025-07-26 14:05:33,994 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:05:34,034 [INFO] Esperando 2.70 segundos (aleatorio)...
+2025-07-26 14:05:36,739 [INFO] Simulando interacción humana...
+2025-07-26 14:05:39,705 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:05:40,010 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=sql&en=1
+2025-07-26 14:05:40,014 [INFO] CSV guardado en: data/sql_20250726.csv
+2025-07-26 14:07:43,904 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-26 14:07:44,014 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=javascript&en=1
+2025-07-26 14:07:44,773 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:07:44,812 [INFO] Esperando 2.10 segundos (aleatorio)...
+2025-07-26 14:07:46,917 [INFO] Simulando interacción humana...
+2025-07-26 14:07:49,846 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:07:50,162 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=javascript&en=1
+2025-07-26 14:07:50,166 [INFO] CSV guardado en: data/javascript_20250726.csv
+2025-07-26 14:08:34,780 [INFO] Usando User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/111.0.0.0 Safari/537.36
+2025-07-26 14:08:34,891 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=java&en=1
+2025-07-26 14:08:35,712 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:08:35,749 [INFO] Esperando 2.58 segundos (aleatorio)...
+2025-07-26 14:08:38,326 [INFO] Simulando interacción humana...
+2025-07-26 14:08:41,810 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:08:42,150 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=java&en=1
+2025-07-26 14:08:42,153 [INFO] CSV guardado en: data/java_20250726.csv
+2025-07-26 14:09:16,421 [INFO] Usando User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/114.0.0.0 Safari/537.36
+2025-07-26 14:09:16,555 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=react&en=1
+2025-07-26 14:09:17,211 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:09:17,244 [INFO] Esperando 2.20 segundos (aleatorio)...
+2025-07-26 14:09:19,443 [INFO] Simulando interacción humana...
+2025-07-26 14:09:22,284 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:09:22,629 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=react&en=1
+2025-07-26 14:09:22,632 [INFO] CSV guardado en: data/react_20250726.csv
+2025-07-26 14:09:46,729 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-26 14:09:46,846 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=docker&en=1
+2025-07-26 14:09:47,670 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:09:47,708 [INFO] Esperando 1.74 segundos (aleatorio)...
+2025-07-26 14:09:49,446 [INFO] Simulando interacción humana...
+2025-07-26 14:09:53,321 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:09:53,648 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=docker&en=1
+2025-07-26 14:09:53,652 [INFO] CSV guardado en: data/docker_20250726.csv
+2025-07-26 14:10:18,765 [INFO] Usando User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Version/14.0.3 Safari/605.1.15
+2025-07-26 14:10:18,871 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=aws&en=1
+2025-07-26 14:10:19,691 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 14:10:19,724 [INFO] Esperando 2.04 segundos (aleatorio)...
+2025-07-26 14:10:21,760 [INFO] Simulando interacción humana...
+2025-07-26 14:10:25,484 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 14:10:25,808 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=aws&en=1
+2025-07-26 14:10:25,812 [INFO] CSV guardado en: data/aws_20250726.csv
+2025-07-26 15:54:39,426 [INFO] Usando User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 Version/14.1 Mobile/15E148 Safari/604.1
+2025-07-26 15:54:39,576 [INFO] Cargando página: https://www.tecnoempleo.com/busqueda-empleo.php?te=aws&en=1
+2025-07-26 15:54:47,583 [INFO] Esperando selector: div.p-3.border.rounded.mb-3.bg-white
+2025-07-26 15:54:47,617 [INFO] Esperando 2.70 segundos (aleatorio)...
+2025-07-26 15:54:50,316 [INFO] Simulando interacción humana...
+2025-07-26 15:54:53,453 [INFO] HTML guardado en: C:\Users\david\Desktop\Personal\proyectos\Scraping-sql-PowerBI\data/tecnoempleo.html
+2025-07-26 15:54:53,810 [INFO] Se extrajeron 30 entradas de https://www.tecnoempleo.com/busqueda-empleo.php?te=aws&en=1
+2025-07-26 15:54:53,829 [INFO] CSV guardado en: data/aws_20250726.csv
