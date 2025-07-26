@@ -45,10 +45,18 @@ Scraping-sql-PowerBI/
 
 ## 📸 Screenshots
 
-1. Scraping execution in terminal  
-2. Interactive filtering of job offers  
-3. Database preview in DB Browser  
-4. Power BI dashboards (full table, tech distribution, cities)
+### 1. Scraping execution in terminal
+![Scraping en consola](capturas/scraping_consola.png)
+
+### 2. Interactive filtering of job offers
+![Filtrado interactivo](capturas/filtrado_terminal.png)
+### 3. Database preview in DB Browser
+![DB Browser](capturas/db_browser.png)
+
+### 4. Power BI dashboards (full table, tech distribution, cities)
+![Power BI – Datos](capturas/powerbi_visualizacion.png)  
+![Power BI – Tecnologías](capturas/powerbi_estado.png)  
+![Power BI – Ciudades](capturas/powerbi_ciudad.png)
 
 ---
 
