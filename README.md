@@ -6,6 +6,9 @@
 
 Proyecto completo de automatización, análisis y visualización de ofertas de empleo técnicas, combinando scraping web, almacenamiento en base de datos SQLite y visualización con Power BI.
 
+🇪🇸 Este README está en español.  
+🇬🇧 [English version here](README_EN.md)
+
 ---
 
 ## 🚀 Tecnologías usadas
