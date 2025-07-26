@@ -1,4 +1,8 @@
 # 📊 Scraping + SQL + Power BI
+![Python](https://img.shields.io/badge/python-3.11+-blue?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Scraping](https://img.shields.io/badge/automation-playwright-informational?logo=playwright)
+
 
 Proyecto completo de automatización, análisis y visualización de ofertas de empleo técnicas, combinando scraping web, almacenamiento en base de datos SQLite y visualización con Power BI.
 
