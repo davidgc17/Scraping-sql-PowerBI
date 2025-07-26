@@ -147,8 +147,3 @@ Me interesa especialmente el scraping, la visualización con Power BI y la progr
 
 📧 Puedes contactarme en:  
 **davidga276@gmail.com**
-
-🔗 O visitar mi perfil de LinkedIn:  
-[linkedin.com/in/davidgc17](https://www.linkedin.com/in/davidgc17)
-
-
