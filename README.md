@@ -16,7 +16,7 @@ Proyecto completo de automatización, análisis y visualización de ofertas de e
 
 ## 📁 Estructura del proyecto
 
-```text
+```
 Scraping-sql-PowerBI/
 │
 ├── data/                    # HTML, CSV y datos de scraping
@@ -42,7 +42,7 @@ Scraping-sql-PowerBI/
 ├── Makefile                 # Automatización de scraping
 ├── requirements.txt
 └── README.md
-
+```
 
 
 ## 🔄 Flujo de trabajo
