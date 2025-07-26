@@ -75,7 +75,7 @@ Scraping-sql-PowerBI/
 ![DB Browser](capturas/db_browser.png)
 
 ### 4. Visualización en Power BI 
-![Power BI – Datos](capturas/powerbi_estado.png)  
+![Power BI – Datos](capturas/powerbi_visualizacion.png)  
 ![Power BI – Tecnologías](capturas/powerbi_estado.png)  
 ![Power BI – Ciudades](capturas/powerbi_ciudad.png)
 
